@@ -1,0 +1,14 @@
+{
+  "name": "cypress-authorization-tricks",
+  "version": "1.0.0",
+  "description": "Project contains example on how to work with cookies and local storage to optimize work with authorization and do not repeat it again and again in the beginning of each test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kate Yurasova, Arthur Mazur",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.2.1"
+  }
+}
