@@ -22,6 +22,7 @@ describe("Avoid multy login via UI by saving token to Local Storage", () => {
     cy.visit(inputData.url + "/settings");
     cy.url().should("include", "settings");
   });
+
   it("User is starting session from Notifications page", () => {
     cy.visit(inputData.url + "/notifications");
     cy.url().should("include", "notifications");
