@@ -11,15 +11,8 @@ describe("User can start session from desired page only after login", () => {
     cy.url().should("include", "settings");
     cy.saveLocalStorage();
   });
-
-  // will fail
-  it("User is trying to start session from Settings page", () => {
-    cy.visit(inputData.url + "/settings");
-    cy.url().should("include", "settings");
-  });
 });
 
-// will fail
 describe("Avoid multy login via UI by saving token to Local Storage", () => {
   beforeEach("Restoring Local Storage data before every test", () => {
     cy.restoreLocalStorage();
@@ -30,7 +23,6 @@ describe("Avoid multy login via UI by saving token to Local Storage", () => {
     cy.url().should("include", "settings");
   });
   it("User is starting session from Notifications page", () => {
-    // cy.loginWithToken(inputData.login, inputData.password);
     cy.visit(inputData.url + "/notifications");
     cy.url().should("include", "notifications");
   });
