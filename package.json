@@ -9,7 +9,7 @@
   "author": "Kate Yurasova, Arthur Mazur",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^6.2.1",
+    "cypress": "^6.5.0",
     "cypress-localstorage-commands": "^1.4.0"
   }
 }
