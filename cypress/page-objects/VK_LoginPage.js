@@ -1,31 +1,33 @@
 class VK_LoginPage {
 
-  get url() {
-    return 'www.vk.com/';
-  }
+    get url() {
+        return 'www.vk.com';
+    }
 
-  open() {
-    cy.visit(this.url);
-  }
+    open() {
+        cy.visit(this.url);
+    }
 
-  get passwordInput() {
-    return cy.get("#index_pass");
-  }
+    get passwordInput() {
+        return cy.get("#index_pass");
+    }
 
-  get emailInput() {
-    return cy.get('#index_email');
-  }
+    get emailInput() {
+        return cy.get('#index_email');
+    }
 
-  get loginButton() {
-    return  cy.get('#index_login_button');
-  }
+    get loginButton() {
+        return cy.get('#index_login_button');
+    }
 
-  login(email, password) {
-    this.emailInput.type(email);
-    this.passwordInput.type(password);
-    this.loginButton.click();
-    cy.get('div#side_bar_inner', { timeout: 1200000 }).should('be.visible', { timeout: 1200000 });
-  }
+    login(email, password) {
+        let loginTimeout = Cypress.env('loginTimeout')
+        this.emailInput.type(email);
+        this.passwordInput.type(password);
+        this.loginButton.click();
+        cy.get('div#side_bar_inner', {timeout: loginTimeout})
+            .should('be.visible', {timeout: loginTimeout});
+    }
 
 }
 
