@@ -1,5 +1,5 @@
 import * as inputData from "../../../fixtures/nero_login.json";
-import { settingsButton } from "../../../page-objects/nero_generalPage";
+import { goToSettings } from "../../../page-objects/nero_generalPage";
 import LoginPage from "../../../page-objects/nero_loginPage";
 
 describe("User can start session from desired page only after login", () => {
@@ -7,7 +7,7 @@ describe("User can start session from desired page only after login", () => {
     cy.visit(inputData.url);
     LoginPage.ordinaryUserLogin(inputData.login, inputData.password);
     cy.url().should("include", "general");
-    cy.get(settingsButton).click();
+    cy.get(goToSettings).click();
     cy.url().should("include", "settings");
   });
 
