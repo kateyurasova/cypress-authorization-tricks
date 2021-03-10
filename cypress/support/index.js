@@ -18,6 +18,5 @@ import "./cookies";
 import "./token";
 import "cypress-localstorage-commands";
 
-
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
