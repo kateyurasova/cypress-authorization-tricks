@@ -23,7 +23,18 @@ context('Features', () => {
         cy.log('THEN User is redirected to /feed page');
         cy.url().should('include', 'feed');
         cy.log('AND User is able to see the left menu options');
-        ['Моя страница', 'Новости', 'Мессенджер', 'Друзья', 'Сообщества', 'Фотографии', 'Музыка', 'Видео', 'Клипы', 'Игры'].forEach(menuItem => {
+        [
+            'Моя страница',
+            'Новости',
+            'Мессенджер',
+            'Друзья',
+            'Сообщества',
+            'Фотографии',
+            'Музыка',
+            'Видео',
+            'Клипы',
+            'Игры'
+        ].forEach(menuItem => {
             cy.get('#side_bar_inner').find(`li:contains(${menuItem})`).should('be.visible')
         })
     })
