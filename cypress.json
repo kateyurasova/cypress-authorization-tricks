@@ -1,6 +1,6 @@
 {
   "env": {
-    "loginTimeout": 120000
+    "loginTimeout": 240000
   },
   "projectId": "gpsd5j",
   "video": false

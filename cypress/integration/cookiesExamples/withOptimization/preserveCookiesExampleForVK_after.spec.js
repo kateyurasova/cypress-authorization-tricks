@@ -9,6 +9,10 @@ context('Features', () => {
         cy.log('WHEN User logs in the VK app');
         VK_LoginPage.open();
         VK_LoginPage.login(loginData.email, loginData.password);
+        cy.getCookies()
+            .then((cookies) => {
+                cy.writeFile('cypress/fixtures/cookies.json', cookies)
+            })
     })
 
     beforeEach(() => {

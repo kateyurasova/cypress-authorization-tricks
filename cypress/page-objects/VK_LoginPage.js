@@ -26,17 +26,7 @@ class VK_LoginPage {
         this.passwordInput.type(password);
         this.loginButton.click();
 
-        cy.wait(15000);
-
-        let sidebar_locator = 'div[id="side_bar_inner"]';
-        cy.get('body').then(($body) => {
-            if ($body.find('[id="index_login_button"]').length) {
-                this.emailInput.type(email);
-                this.passwordInput.type(password);
-                this.loginButton.click();
-            }
-        });
-        cy.get(sidebar_locator, {timeout: loginTimeout})
+        cy.get('div[id="side_bar_inner"]', {timeout: loginTimeout})
             .should('be.visible', {timeout: loginTimeout});
     }
 
