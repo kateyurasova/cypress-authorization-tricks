@@ -17,7 +17,7 @@ import LoginPage from "../../../page-objects/nero_loginPage";
 
 describe("Using external package", () => {
   describe("Login via GUI and SAVE LOCAL STORAGE once", () => {
-    it("[ПОКАЗАТЬ ПОИСК] is displaid on the General page", () => {
+    it("[ПОКАЗАТЬ ПОИСК] is displayed on the General page", () => {
       cy.visit(inputData.url);
       LoginPage.ordinaryUserLogin(inputData.login, inputData.password);
       cy.url().should("include", "general");
@@ -32,7 +32,7 @@ describe("Using external package", () => {
       cy.restoreLocalStorage();
     });
 
-    it(`'Оповещение' is on the page Notifications`, () => {
+    it.only(`'Оповещение' is on the page Notifications`, () => {
       cy.visit(inputData.url + "/notifications");
       cy.url().should("include", "/notifications");
       cy.get(canvasNotifications).should("contain", "Оповещения");

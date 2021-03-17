@@ -10,7 +10,7 @@ describe("Login via API", () => {
     cy.loginWithToken(inputData.login, inputData.password);
   });
 
-  it("[ПОКАЗАТЬ ПОИСК] is displaid on the General page", () => {
+  it("[ПОКАЗАТЬ ПОИСК] is displayed on the General page", () => {
     cy.visit(inputData.url + "/general");
     cy.url().should("include", "general");
     cy.get(showWhatisFound).should("be.visible");
