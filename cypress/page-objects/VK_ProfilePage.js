@@ -1,17 +1,9 @@
-import * as loginData from "../fixtures/login";
-import promisify from "cypress-promise";
+import VK_LoginPage from "./VK_LoginPage";
 
 class VK_ProfilePage {
 
-    get updatePhotoButton() {
-        return cy.get('a.ms_item_photo');
-    }
-
-    getProfileInfo() {
-        return promisify(cy
-            .get('div#profile_short')
-            .then(el => el.text())
-        );
+    open(profileName) {
+        cy.visit(`${VK_LoginPage.url}/${profileName}`);
     }
 
 }
