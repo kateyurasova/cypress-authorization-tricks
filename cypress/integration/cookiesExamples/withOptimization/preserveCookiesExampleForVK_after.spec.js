@@ -2,6 +2,7 @@ import * as loginData from '../../../fixtures/vk_login.json';
 import VK_LoginPage from "../../../page-objects/VK_LoginPage";
 import VK_ProfilePage from "../../../page-objects/VK_ProfilePage";
 import * as personalInfo from "../../../fixtures/vk_personal_info.json";
+import * as VK_data from "../../../fixtures/VK_left_menu_options.json";
 
 context('Features', () => {
 
@@ -23,18 +24,7 @@ context('Features', () => {
         cy.log('THEN User is redirected to /feed page');
         cy.url().should('include', 'feed');
         cy.log('AND User is able to see the left menu options');
-        [
-            'Моя страница',
-            'Новости',
-            'Мессенджер',
-            'Друзья',
-            'Сообщества',
-            'Фотографии',
-            'Музыка',
-            'Видео',
-            'Клипы',
-            'Игры'
-        ].forEach(menuItem => {
+        VK_data.leftMenuOptions.forEach(menuItem => {
             cy.get('#side_bar_inner').find(`li:contains(${menuItem})`).should('be.visible')
         })
     })
