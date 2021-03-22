@@ -14,7 +14,7 @@ describe("Ordinary flow via GUI", () => {
     LoginPage.ordinaryUserLogin(inputData.login, inputData.password);
   });
 
-  it("[ПОКАЗАТЬ ПОИСК] is displaid on the General page", () => {
+  it("[ПОКАЗАТЬ ПОИСК] is displayed on the General page", () => {
     cy.url().should("include", "general");
     cy.get(showWhatisFound).should("be.visible");
   });

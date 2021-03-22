@@ -1,0 +1,247 @@
+[
+  {
+    "name": "remixbdr",
+    "value": "1",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1616499601.067985
+  },
+  {
+    "name": "tmr_detect",
+    "value": "0%7C1616413243443",
+    "path": "/",
+    "domain": "vk.com",
+    "secure": false,
+    "httpOnly": false,
+    "expiry": 1616499643
+  },
+  {
+    "name": "remixgp",
+    "value": "d9e81afa3408e0c7a04247466e65f2ae",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1617018002
+  },
+  {
+    "name": "remixscreen_orient",
+    "value": "1",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1617018029
+  },
+  {
+    "name": "remixflash",
+    "value": "0.0.0",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1619005229
+  },
+  {
+    "name": "remixseenads",
+    "value": "0",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1619005230
+  },
+  {
+    "name": "tmr_lvid",
+    "value": "fbbcdc67b50dd2ef57ec7dff4e32625c",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": false,
+    "httpOnly": false,
+    "expiry": 1645184441
+  },
+  {
+    "name": "tmr_lvidTS",
+    "value": "1616413211535",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": false,
+    "httpOnly": false,
+    "expiry": 1645184441
+  },
+  {
+    "name": "tmr_reqNum",
+    "value": "3",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": false,
+    "httpOnly": false,
+    "expiry": 1645184441
+  },
+  {
+    "name": "remixlang",
+    "value": "0",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1647272477.643055
+  },
+  {
+    "name": "s",
+    "value": "1",
+    "path": "/",
+    "domain": ".login.vk.com",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "no_restriction",
+    "expiry": 1647400918.559613
+  },
+  {
+    "name": "remixsid",
+    "value": "7591b9d5084f95e11838d05bacd47a1374f55fc1ccd6c6455566fe004a89e",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "no_restriction",
+    "expiry": 1647782219.643334
+  },
+  {
+    "name": "remixdt",
+    "value": "0",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1647949202
+  },
+  {
+    "name": "remixrt",
+    "value": "1",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1647949202
+  },
+  {
+    "name": "remixscreen_width",
+    "value": "1600",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1647949229
+  },
+  {
+    "name": "remixscreen_height",
+    "value": "900",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1647949229
+  },
+  {
+    "name": "remixscreen_dpr",
+    "value": "2",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1647949229
+  },
+  {
+    "name": "remixscreen_depth",
+    "value": "24",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1647949229
+  },
+  {
+    "name": "remixscreen_winzoom",
+    "value": "1.60",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1647949229
+  },
+  {
+    "name": "p",
+    "value": "d3116eb329fd83ee823a0a36e7a9cd65d15b53c5078297be6aae8cf92cb34",
+    "path": "/",
+    "domain": ".login.vk.com",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "no_restriction",
+    "expiry": 1648067861.559695
+  },
+  {
+    "name": "l",
+    "value": "4906459",
+    "path": "/",
+    "domain": ".login.vk.com",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "no_restriction",
+    "expiry": 1648118493.559661
+  },
+  {
+    "name": "remixuas",
+    "value": "ZjQ3OTQyNDY5OTBjZDYwZjBlNDg4ZTli",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "no_restriction",
+    "expiry": 1648174504.643494
+  },
+  {
+    "name": "remixstid",
+    "value": "710179886_qOpFkNzrRLFlFlOVApZTgEMVLCmyOYit8tTfqqG6IfT",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "no_restriction",
+    "expiry": 1648373599.06802
+  },
+  {
+    "name": "h",
+    "value": "1",
+    "path": "/",
+    "domain": ".login.vk.com",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "no_restriction",
+    "expiry": 1648410607.559526
+  },
+  {
+    "name": "__gfp_64b",
+    "value": "rC2LFQ14U03Ul3PAArhGWUOyGJOsPUvXkWQd7s.OLX7.w7|1610454066",
+    "path": "/",
+    "domain": ".vk.com",
+    "secure": false,
+    "httpOnly": false,
+    "expiry": 1702813211
+  }
+]
